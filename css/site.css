@@ -6,6 +6,8 @@
   --orange: #F07800;
   --nav-ink: #111;
   --nav-muted: #5a5a5a;
+  --link: #B34700;
+  --link-hover: #8F3A08;
 }
 
 body {
@@ -20,6 +22,11 @@ p {
   text-align: justify;
   hyphens: auto;
   -webkit-hyphens: auto;
+}
+
+.accent {
+  color: #D35400;
+  font-weight: 600;
 }
 
 /* ---- navbar ---- */
@@ -59,4 +66,22 @@ p {
   color: var(--nav-ink);
   background-color: transparent;
   box-shadow: inset 0 -2px 0 var(--orange);
+}
+
+/* ---- links ---- */
+
+a {
+  color: var(--link);
+}
+
+a:hover,
+a:focus {
+  color: var(--link-hover);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+a:focus-visible {
+  outline: 2px solid var(--link);
+  outline-offset: 2px;
 }
