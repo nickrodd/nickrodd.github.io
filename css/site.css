@@ -215,10 +215,6 @@ h2:first-child {
   align-items: start;
 }
 
-.container .row > .col-md-1 {
-  display: none;
-}
-
 @media (max-width: 860px) {
   .container .row {
     grid-template-columns: 1fr;
