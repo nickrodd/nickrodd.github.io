@@ -227,11 +227,10 @@ img {
   height: auto;
 }
 
-.container .row > [class*="col-"]:last-child > img,
-.container .row > [class*="col-"]:last-child > a > img {
+.row > .figure > img,
+.row > .figure > a > img {
   display: block;
   margin-left: auto;
-  margin-right: 0;
 }
 
 .container {
