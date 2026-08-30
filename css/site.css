@@ -218,3 +218,25 @@ img {
   margin-left: auto;
   margin-right: 0;
 }
+
+.container {
+  margin-bottom: 40px;
+}
+
+hr {
+  border: 0;
+  border-top: 1px solid #e6e4e0;
+  margin: 0 0 40px;
+  position: relative;
+  overflow: visible;
+}
+
+hr::before {
+  content: "";
+  position: absolute;
+  top: -2px;
+  left: 0;
+  width: 56px;
+  height: 3px;
+  background: var(--orange);
+}
