@@ -208,7 +208,7 @@ h2:first-child {
 
 /* ---- layout ---- */
 
-.container .row {
+.row {
   display: grid;
   grid-template-columns: minmax(0, 68ch) minmax(260px, 1fr);
   gap: 0 48px;
@@ -216,7 +216,7 @@ h2:first-child {
 }
 
 @media (max-width: 860px) {
-  .container .row {
+  .row {
     grid-template-columns: 1fr;
     gap: 24px 0;
   }
