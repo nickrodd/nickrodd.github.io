@@ -51,10 +51,24 @@ body {
   text-align: center;
 }
 
+#images img {
+  margin: 0 12px;
+}
+
 p {
   text-align: justify;
   hyphens: auto;
   -webkit-hyphens: auto;
+  margin-bottom: 0.85em;
+}
+
+ul, ol {
+  margin-bottom: 0.85em;
+}
+
+p + ul,
+p + ol {
+  margin-top: -0.5em;
 }
 
 .accent { 
@@ -156,6 +170,7 @@ h2:first-child {
   font-weight: 400;
   line-height: 1.35;
   color: #5f5f5f;
+  margin-bottom: 0.7em;
 }
 
 /* ---- layout ---- */
