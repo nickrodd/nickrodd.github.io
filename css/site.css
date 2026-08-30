@@ -49,21 +49,14 @@
   box-sizing: border-box;
 }
 
-body {
-  margin: 0;
-}
-
 .container {
   width: 100%;
   max-width: 1170px;
   margin-right: auto;
   margin-left: auto;
+  margin-bottom: 40px;
   padding-right: 15px;
   padding-left: 15px;
-}
-
-body {
-  padding-bottom: 100px;
 }
 
 #images {
@@ -171,6 +164,8 @@ body {
   font-size: 16.5px;
   line-height: 1.48;
   color: #2b2b2b;
+  margin: 0;
+  padding-bottom: 100px;
 }
 
 h1, h2, h3, h4 {
@@ -231,10 +226,6 @@ img {
 .row > .figure > a > img {
   display: block;
   margin-left: auto;
-}
-
-.container {
-  margin-bottom: 40px;
 }
 
 hr {
